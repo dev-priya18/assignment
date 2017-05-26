@@ -1,0 +1,9 @@
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+  .listBlockSlider .slide img{display: block;height: 100%;}
+  .listBlockSlider .slick-list{height: 100%;}
+  .listBlockSlider .slick-track,.listBlockSlider .slick-slide,.listBlockSlider .slide{height: 100%;}
+  select::-ms-expand {
+    display: none;
+  }
+}
